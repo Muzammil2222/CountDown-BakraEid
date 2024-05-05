@@ -1,0 +1,35 @@
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+}
+span.days {
+    margin-bottom: 10px;
+    font-size: 25px !important;
+}
+.box{
+    box-shadow: 4px 0px 30px -5px;
+    border-radius: 100px;
+    font-family: arial !important;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.box span {
+    font-size: 25px;
+}
+body {
+    padding-top: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(image/photorealistic-view-cows-grazing-nature-outdoors_23-2151294297.avif);
+    font-family: arial;
+    text-align: center;
+}
